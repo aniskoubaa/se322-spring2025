@@ -2,9 +2,9 @@
 
 # Repository configuration
 REPO_NAME="se322-spring2025"
-REPO_URL="https://github.com/akoubaas/se322-spring2025.git"
+REPO_URL="https://github.com/aniskoubaa/se322-spring2025"
 BRANCH="main"
-VERSION="1.0.2"
+VERSION="1.0.3"
 
 # Colors for terminal output
 RED='\033[0;31m'
