@@ -4,7 +4,7 @@
 REPO_NAME="se322-spring2025"
 REPO_URL="https://github.com/akoubaas/se322-spring2025.git"
 BRANCH="main"
-VERSION="1.0.1"
+VERSION="1.0.2"
 
 # Colors for terminal output
 RED='\033[0;31m'

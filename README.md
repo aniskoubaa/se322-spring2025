@@ -26,7 +26,8 @@
 
 1. [🔌 IoT Middleware Lab: MQTT with Arduino Nano ESP32](./iot_middleware/README.md)
    - 🛠️ Hands-on activity using **Arduino Nano ESP32**, **DHT sensors**, and **Python**  
-   - 🔁 Demonstrates **unidirectional** and **bidirectional** MQTT communication  
+   - 🔁 Demonstrates **unidirectional** and **bidirectional** MQTT communication
+   - 💻 Includes **Wokwi simulation** for testing before hardware implementation
 
 ---
 
@@ -45,6 +46,22 @@ conda activate se322
 
 ---
 
+## 🔧 Development Tools
+
+### 🌐 Online Simulators
+- [Wokwi](https://wokwi.com/) - ESP32 and sensor simulation
+  - Test your IoT projects before hardware implementation
+  - Real-time debugging and visualization
+  - Supports MQTT communication
+
+### 🛠️ Required Software
+- Arduino IDE with ESP32 support
+- Python 3.8 or higher
+- Conda package manager
+- MQTT Explorer (optional)
+
+---
+
 ## 📂 Course Resources
 
 Additional resources, lecture slides, and documentation will be shared throughout the course 📤.
@@ -53,4 +70,4 @@ Additional resources, lecture slides, and documentation will be shared throughou
 
 ---
 
-Let me know if you’d like this converted into a downloadable `README.md`, shared as a webpage, or if you'd like help styling it for a course platform like Moodle or Notion!
+Let me know if you'd like this converted into a downloadable `README.md`, shared as a webpage, or if you'd like help styling it for a course platform like Moodle or Notion!

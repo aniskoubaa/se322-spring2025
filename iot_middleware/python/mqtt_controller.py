@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 
 # MQTT settings
-broker = "broker.hivemq.com"
+broker = "broker.emqx.io" #broker.emqx.io #broker.hivemq.com
 port = 1883
 temp_topic = "home/temp"  # Subscribe to sensor data
 cmd_topic = "home/cmd"    # Publish commands
