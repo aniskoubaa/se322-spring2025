@@ -8,6 +8,8 @@ The lab can be conducted using three different approaches, in order of preferenc
 
 1. **Physical Hardware** (Best for hands-on experience)
 2. **Wokwi Simulation** (Good for remote teaching)
+   - Ready-made project: [SE322 IoT Middleware Lab](https://wokwi.com/projects/391533850618798081)
+   - Can be forked and modified for different scenarios
 3. **Python Emulator** (Backup for network/hardware issues)
 
 ---
@@ -84,6 +86,7 @@ The lab can be conducted using three different approaches, in order of preferenc
 - Physical feedback
 
 ### Plan B: Wokwi Simulation
+- Use provided project link
 - Online simulation
 - Virtual components
 - Real-time feedback
@@ -118,6 +121,7 @@ The lab can be conducted using three different approaches, in order of preferenc
    - DHT22 specifications
 
 2. **Online Tools**
+   - [Wokwi Project](https://wokwi.com/projects/391533850618798081)
    - MQTT Explorer
    - Wokwi documentation
    - Python MQTT client docs
@@ -127,6 +131,9 @@ The lab can be conducted using three different approaches, in order of preferenc
    - Testing scripts
    - Debug tools
 
-Remember: Always have the Python emulator ready as a fallback option. It's better to complete the lab with simulated data than to get stuck on hardware issues.
+Remember: Always have multiple backup options ready. The priority order is:
+1. Physical Hardware
+2. Wokwi Simulation (using provided project link)
+3. Python Emulator
 
 ---

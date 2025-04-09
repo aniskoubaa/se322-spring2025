@@ -28,10 +28,16 @@ You can complete this lab using one of three approaches:
 You can simulate this project online:
 
 1. Go to [Wokwi](https://wokwi.com/)
-2. Create a new ESP32 project
-3. Replace the default files with:
+2. Use the ready-made project: [SE322 IoT Middleware Lab](https://wokwi.com/projects/391533850618798081)
+3. Or create a new project and replace the default files with:
    - `arduino/phase1_wokwi.ino` for the code
    - `arduino/diagram.json` for the hardware configuration
+
+The simulation demonstrates:
+- ESP32 connection to MQTT broker
+- DHT22 sensor readings
+- Real-time data publishing
+- Alert system response
 
 ### 3. Python Emulator
 If hardware or simulation isn't available, use the Python emulator:
