@@ -1,10 +1,15 @@
 #!/usr/bin/env python
-import pika
 import json
 from datetime import datetime
+import sys
+import os
 
-# Connect to RabbitMQ
-connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+# Add parent directory to path to import utils
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils import get_rabbitmq_connection
+
+# Connect to RabbitMQ using CloudAMQP credentials
+connection = get_rabbitmq_connection()
 channel = connection.channel()
 
 # Declare the direct exchange for alerts

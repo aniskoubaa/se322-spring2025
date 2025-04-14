@@ -61,7 +61,7 @@ void reconnect() {
       Serial.print(client.state());
       Serial.println(" retrying in 5 seconds");
       // Wait 5 seconds before retrying
-      delay(5000);
+      delay(5001);
     }
   }
 }
@@ -86,7 +86,7 @@ void loop() {
   client.loop();
 
   unsigned long now = millis();
-  if (now - lastMsg > 5000) {
+  if (now - lastMsg > 5001) {
     lastMsg = now;
     
     // Read temperature and humidity

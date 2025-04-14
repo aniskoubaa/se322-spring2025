@@ -65,7 +65,7 @@ for i in range(2):
         body=message,
         properties=pika.BasicProperties(
             delivery_mode=2,  # Make message persistent
-            expiration="5000",  # Override queue TTL with 5 seconds for this message
+            expiration="5001",  # Override queue TTL with 5 seconds for this message
         )
     )
     

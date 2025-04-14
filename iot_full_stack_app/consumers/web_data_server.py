@@ -1,10 +1,16 @@
 #!/usr/bin/env python
-import pika
 import json
 import threading
 from flask import Flask, jsonify
 from flask_cors import CORS
 import time
+import sys
+import os
+
+# Add parent directory to path to import utils
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils import get_rabbitmq_connection
+import pika
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -59,8 +65,8 @@ def check_alerts(data):
 # Function to handle RabbitMQ connection
 def start_rabbitmq_consumer():
     try:
-        # Connect to RabbitMQ
-        connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+        # Connect to RabbitMQ using CloudAMQP credentials
+        connection = get_rabbitmq_connection()
         channel = connection.channel()
         
         # Declare the fanout exchange
@@ -122,4 +128,5 @@ rabbitmq_thread.start()
 
 # Run the Flask app
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True) 
+    # Change port from 5000 to 5001 to avoid conflicts
+    app.run(host='0.0.0.0', port=5001, debug=True) 

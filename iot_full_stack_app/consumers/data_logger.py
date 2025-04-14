@@ -1,8 +1,13 @@
 #!/usr/bin/env python
-import pika
 import json
 import os
 from datetime import datetime
+import sys
+import os
+
+# Add parent directory to path to import utils
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils import get_rabbitmq_connection
 
 # Ensure the data directory exists
 os.makedirs("data", exist_ok=True)
@@ -16,8 +21,8 @@ with open(data_file, "a") as f:
     if not file_exists:
         f.write("timestamp,datetime,temperature,humidity,soil_moisture,device_id\n")
 
-# Connect to RabbitMQ
-connection = pika.BlockingConnection(pika.ConnectionParameters('localhost'))
+# Connect to RabbitMQ using CloudAMQP credentials
+connection = get_rabbitmq_connection()
 channel = connection.channel()
 
 # Declare the fanout exchange

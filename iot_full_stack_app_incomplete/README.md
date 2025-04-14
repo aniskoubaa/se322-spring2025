@@ -16,6 +16,7 @@ This is an incomplete version of the IoT Agriculture Monitoring application desi
    - 📊 Data Logger: Saves all sensor data to a CSV file
    - ⚠️ Alert Handler: Monitors for abnormal values and prints alerts
    - 🌐 Web Data Server: Forwards data to the dashboard via a Flask API
+   - 📊 Topic Analyzer: Demonstrates topic exchange wildcards to subscribe to multiple related topics
 
 3. **📱 Dashboard**
    - Simple HTML/JavaScript webpage that displays sensor values and alerts
@@ -24,7 +25,7 @@ This is an incomplete version of the IoT Agriculture Monitoring application desi
 ## 📋 Prerequisites
 
 - 🐍 Python 3.6+
-- 🐰 RabbitMQ Server
+- 🐰 RabbitMQ Server or CloudAMQP account
 - 🌐 Web browser
 
 ## 🔧 Installation
@@ -36,8 +37,12 @@ This is an incomplete version of the IoT Agriculture Monitoring application desi
    pip install -r requirements.txt
    ```
 
-3. **🚀 Start RabbitMQ Server**
-   Make sure RabbitMQ is running on your system.
+3. **🔑 Set up RabbitMQ connection:**
+   
+   This project uses CloudAMQP:
+   - The `.env` file already contains the CloudAMQP credentials
+   - The `utils.py` file contains a helper function to establish the connection
+   - You'll need to import and use these in your code as you complete the TODOs
 
 ## 🏃‍♂️ Running the Application
 
@@ -49,9 +54,10 @@ After completing the TODOs during the lecture, you'll run the components in sepa
    - Generate sensor data
    - Implement alert conditions
    - Publish to different exchange types
+   - Update to use `get_rabbitmq_connection()` from utils.py
 
 2. **consumers/data_logger.py**
-   - Connect to RabbitMQ
+   - Connect to RabbitMQ using `get_rabbitmq_connection()`
    - Create and bind queue
    - Parse and log sensor data
 
@@ -60,20 +66,27 @@ After completing the TODOs during the lecture, you'll run the components in sepa
    - Check values against thresholds
    - Format and display alerts
 
-4. **consumers/web_data_server.py**
+4. **consumers/topic_analyzer.py**
+   - Connect to RabbitMQ with topic exchange
+   - Subscribe using wildcards (sensor.*)
+   - Process messages based on routing key
+
+5. **consumers/web_data_server.py**
    - Create RabbitMQ consumer for web data
    - Implement alert check function
    - Create API endpoint
+   - Make sure to use port 5001 instead of 5000
 
-5. **dashboard/index.html**
+6. **dashboard/index.html**
    - Create sensor card HTML structure
    - Add alert display area
    - Style elements properly
 
-6. **dashboard/app.js**
+7. **dashboard/app.js**
    - Implement data fetching from API
    - Update dashboard UI with sensor values
    - Handle alerts and visual feedback
+   - Remember to use port 5001 in API URL
 
 ## ⚠️ Alert Thresholds
 
@@ -88,6 +101,7 @@ iot_full_stack_app_incomplete/
 ├── consumers/
 │   ├── alert_handler.py
 │   ├── data_logger.py
+│   ├── topic_analyzer.py
 │   └── web_data_server.py
 ├── dashboard/
 │   ├── app.js
@@ -96,6 +110,8 @@ iot_full_stack_app_incomplete/
 │   └── sensor_emitter.py
 ├── assets/
 │   └── iot_architecture.png
+├── .env
+├── utils.py
 ├── requirements.txt
 └── README.md
 ``` 

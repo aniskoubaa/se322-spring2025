@@ -16,6 +16,7 @@ A simple educational IoT system that simulates environmental sensor data for agr
    - 📊 Data Logger: Saves all sensor data to a CSV file
    - ⚠️ Alert Handler: Monitors for abnormal values and prints alerts
    - 🌐 Web Data Server: Forwards data to the dashboard via a Flask API
+   - 📊 Topic Analyzer: Demonstrates topic exchange wildcards to subscribe to multiple related topics
 
 3. **📱 Dashboard**
    - Simple HTML/JavaScript webpage that displays sensor values and alerts
@@ -24,7 +25,7 @@ A simple educational IoT system that simulates environmental sensor data for agr
 ## 📋 Prerequisites
 
 - 🐍 Python 3.6+
-- 🐰 RabbitMQ Server
+- 🐰 RabbitMQ Server or CloudAMQP account
 - 🌐 Web browser
 
 ## 🔧 Installation
@@ -36,8 +37,21 @@ A simple educational IoT system that simulates environmental sensor data for agr
    pip install -r requirements.txt
    ```
 
-3. **🚀 Start RabbitMQ Server**
-   Make sure RabbitMQ is running on your system.
+3. **🔑 Set up RabbitMQ connection:**
+   
+   For CloudAMQP:
+   - Make sure the `.env` file has your CloudAMQP credentials:
+     ```
+     RABBITMQ_PASSWORD=your_password
+     RABBITMQ_HOST=your_host.cloudamqp.com
+     RABBITMQ_PORT=5672
+     RABBITMQ_VHOST=your_vhost
+     RABBITMQ_USER=your_username
+     ```
+
+   For Local RabbitMQ:
+   - Install and start RabbitMQ server
+   - Update the `utils.py` file to use local connection parameters
 
 ## 🏃‍♂️ Running the Application
 
@@ -61,6 +75,12 @@ A simple educational IoT system that simulates environmental sensor data for agr
    python consumers/alert_handler.py
    ```
 
+   Start the topic analyzer:
+   ```
+   cd se322-spring2025/iot_full_stack_app
+   python consumers/topic_analyzer.py
+   ```
+
    Start the sensor emitter:
    ```
    cd se322-spring2025/iot_full_stack_app
@@ -74,7 +94,7 @@ A simple educational IoT system that simulates environmental sensor data for agr
 
 - **📢 Fanout Exchange**: Broadcasts sensor data to all bound queues
 - **🎯 Direct Exchange**: Sends alerts based on routing key
-- **📋 Topic Exchange**: Routes data by sensor type (e.g., sensor.temperature)
+- **📋 Topic Exchange**: Routes data by sensor type with wildcards (e.g., sensor.*)
 - **🏷️ Headers Exchange**: Routes based on message headers
 
 ## ⚠️ Alert Thresholds
@@ -90,6 +110,7 @@ iot_full_stack_app/
 ├── consumers/
 │   ├── alert_handler.py
 │   ├── data_logger.py
+│   ├── topic_analyzer.py
 │   └── web_data_server.py
 ├── dashboard/
 │   ├── app.js
@@ -100,6 +121,8 @@ iot_full_stack_app/
 │   └── sensor_data.csv (created when running)
 ├── assets/
 │   └── iot_architecture.png
+├── .env
+├── utils.py
 ├── requirements.txt
 └── README.md
 ``` 

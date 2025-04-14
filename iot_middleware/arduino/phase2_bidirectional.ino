@@ -81,5 +81,5 @@ void loop() {
     client.publish(temp_topic, payload.c_str());
     Serial.println("Published: " + payload);
   }
-  delay(5000);
+  delay(5001);
 } 
