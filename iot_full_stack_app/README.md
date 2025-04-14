@@ -2,6 +2,10 @@
 
 A simple educational IoT system that simulates environmental sensor data for agriculture and transmits it using RabbitMQ. Data is visualized in a lightweight HTML/JavaScript dashboard.
 
+## 📊 System Architecture
+
+![IoT Farm Sensor Data Flow with RabbitMQ](assets/iot_architecture.png)
+
 ## 🧩 System Components
 
 1. **📡 Sensor Simulator**
@@ -94,6 +98,8 @@ iot_full_stack_app/
 │   └── sensor_emitter.py
 ├── data/
 │   └── sensor_data.csv (created when running)
+├── assets/
+│   └── iot_architecture.png
 ├── requirements.txt
 └── README.md
 ``` 

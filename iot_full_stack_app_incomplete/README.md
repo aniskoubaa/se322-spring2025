@@ -2,6 +2,10 @@
 
 This is an incomplete version of the IoT Agriculture Monitoring application designed for classroom teaching. The files contain placeholders (TODOs) that need to be filled in during the lecture.
 
+## 📊 System Architecture
+
+![IoT Farm Sensor Data Flow with RabbitMQ](assets/iot_architecture.png)
+
 ## 🧩 System Components
 
 1. **📡 Sensor Simulator**
@@ -90,6 +94,8 @@ iot_full_stack_app_incomplete/
 │   └── index.html
 ├── sensors/
 │   └── sensor_emitter.py
+├── assets/
+│   └── iot_architecture.png
 ├── requirements.txt
 └── README.md
 ``` 
