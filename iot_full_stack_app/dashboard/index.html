@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Agriculture Monitoring Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        .sensors {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .sensor-card {
+            width: 30%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 15px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .sensor-value {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .sensor-unit {
+            font-size: 0.8em;
+            color: #7f8c8d;
+        }
+        .alerts {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            border-left: 5px solid #e74c3c;
+        }
+        .alert-item {
+            padding: 5px;
+            margin: 5px 0;
+            color: #e74c3c;
+        }
+        .alert-header {
+            display: flex;
+            align-items: center;
+        }
+        .alert-icon {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+        .normal {
+            color: #27ae60;
+        }
+        .warning {
+            color: #e74c3c;
+        }
+        .last-update {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.8em;
+            margin-top: 20px;
+        }
+        .no-alerts {
+            color: #27ae60;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>IoT Agriculture Monitoring Dashboard</h1>
+        
+        <div class="sensors">
+            <div class="sensor-card">
+                <h3>Temperature</h3>
+                <div id="temperature" class="sensor-value">--</div>
+                <div class="sensor-unit">°C</div>
+            </div>
+            
+            <div class="sensor-card">
+                <h3>Humidity</h3>
+                <div id="humidity" class="sensor-value">--</div>
+                <div class="sensor-unit">%</div>
+            </div>
+            
+            <div class="sensor-card">
+                <h3>Soil Moisture</h3>
+                <div id="soil-moisture" class="sensor-value">--</div>
+                <div class="sensor-unit">units</div>
+            </div>
+        </div>
+        
+        <div class="alerts">
+            <div class="alert-header">
+                <span class="alert-icon">⚠️</span>
+                <h3>Alerts</h3>
+            </div>
+            <div id="alerts-container">
+                <div class="no-alerts">No alerts at this time</div>
+            </div>
+        </div>
+        
+        <div id="last-update" class="last-update">
+            Last updated: Never
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html> 
