@@ -1,0 +1,123 @@
+2025-04-20 17:13:54 - ANOMALY_DETECTION: Suspicious temperature change detected: 29.366666666666664 -> 16.9
+2025-04-20 17:13:54 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:13:54 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:54 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:54 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:54 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:54 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:13:54 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:54 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:54 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:54 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:57 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:13:57 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:57 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:57 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:57 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:58 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:13:58 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:58 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:58 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:58 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:59 - ANOMALY_DETECTION: Suspicious temperature change detected: 27.53333333333333 -> 15.5
+2025-04-20 17:13:59 - ANOMALY_DETECTION: Suspicious temperature change detected: 27.53333333333333 -> 15.5
+2025-04-20 17:13:59 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:13:59 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:13:59 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:00 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:00 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:02 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:03 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:03 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:03 - ANOMALY_DETECTION: Suspicious temperature change detected: 33.86666666666667 -> 15.4
+2025-04-20 17:14:03 - ANOMALY_DETECTION: Suspicious temperature change detected: 33.86666666666667 -> 15.4
+2025-04-20 17:14:03 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:03 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:03 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:03 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:03 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:03 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:03 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:06 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:06 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:07 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:07 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:07 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:07 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:07 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:07 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:07 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:07 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:09 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:09 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:09 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:09 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:09 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:09 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:10 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:10 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:10 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:10 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:12 - ANOMALY_DETECTION: Suspicious temperature change detected: 34.96666666666666 -> 19.7
+2025-04-20 17:14:12 - ANOMALY_DETECTION: Suspicious temperature change detected: 34.96666666666666 -> 19.7
+2025-04-20 17:14:12 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:12 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:12 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:12 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:12 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:12 - ANOMALY_DETECTION: Suspicious temperature change detected: 34.96666666666666 -> 20.1
+2025-04-20 17:14:12 - ANOMALY_DETECTION: Suspicious temperature change detected: 34.96666666666666 -> 20.1
+2025-04-20 17:14:12 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:13 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:13 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:13 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:13 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:15 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:15 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:15 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:15 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:15 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:15 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:16 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:16 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:16 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:16 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:17 - ANOMALY_DETECTION: Suspicious temperature change detected: 38.23333333333333 -> 25.6
+2025-04-20 17:14:18 - ANOMALY_DETECTION: Suspicious temperature change detected: 38.23333333333333 -> 25.6
+2025-04-20 17:14:18 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:18 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:18 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:18 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:18 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:19 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:19 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:20 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:20 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:20 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:20 - ANOMALY_DETECTION: Suspicious temperature change detected: 36.13333333333333 -> 23.4
+2025-04-20 17:14:21 - ANOMALY_DETECTION: Suspicious temperature change detected: 36.13333333333333 -> 23.4
+2025-04-20 17:14:21 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:21 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:21 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:21 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:21 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:22 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:23 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:23 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:23 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:23 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:25 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:25 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:25 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:25 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:25 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:27 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:27 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:27 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:28 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:28 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:28 - UNSIGNED_MESSAGE: Unsigned message on secure exchange sensors.secure.topic
+2025-04-20 17:14:29 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:29 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:29 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout
+2025-04-20 17:14:29 - MITM_ATTACK_DETECTED: Detected message on MITM exchange: mitm.fanout

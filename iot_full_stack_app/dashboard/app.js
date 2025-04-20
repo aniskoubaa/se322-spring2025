@@ -1,7 +1,7 @@
 // IoT Dashboard JavaScript
 
 // API endpoint for sensor data (updated port from 5000 to 5001)
-const API_URL = 'http://localhost:5001/api/sensor-data';
+const API_URL = 'http://localhost:5001/api/sensor-data';  //REST API
 
 // Update interval in milliseconds (2 seconds)
 const UPDATE_INTERVAL = 2000;
@@ -47,6 +47,7 @@ function fetchSensorData() {
             return response.json();
         })
         .then(data => {
+            console.log('Received data:', data);
             updateDashboard(data);
         })
         .catch(error => {

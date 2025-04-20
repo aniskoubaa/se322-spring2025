@@ -1,0 +1,30 @@
++---------------------------+     +----------------------+     +------------------------+
+|                           |     |                      |     |                        |
+|   Secure Sensor Emitter   +---->+  RabbitMQ Messaging  +---->+  Secure Web Data      |
+|   (Signed/Encrypted)      |     |  (Topic Exchange)    |     |  Server (Verification)|
+|                           |     |                      |     |                        |
++---------------------------+     +-----+----------+-----+     +----------+-------------+
+                                        |          |                      |
+                                        |          |                      |
+                                        v          v                      v
+                     +-----------------++-+      +-+------------------+  ++------------------+
+                     |                  |        |                    |  |                   |
+                     |  Message Sniffer |        | Message Spoofer    |  | Secure Dashboard  |
+                     |  (Eavesdropping) |        | (Fake Commands)    |  | (Security Status) |
+                     |                  |        |                    |  |                   |
+                     +------------------+        +--------------------+  +-------------------+
+                                                        |
+                                                        |
+                                 +---------------------+ | +------------------------+
+                                 |                     | | |                        |
+                                 | MITM Attacker       <-+ |   Security Monitor    |
+                                 | (Message Tampering) |   |   (Breach Detection)  |
+                                 |                     |   |                        |
+                                 +---------------------+   +------------------------+
+
+Security Features Implemented:
+- Message Signing (HMAC-SHA256)
+- Encryption (AES-256-CBC)
+- Timestamp Verification (Anti-Replay)
+- Device Authentication
+- Anomaly Detection 
